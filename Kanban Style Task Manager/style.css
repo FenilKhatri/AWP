@@ -1,0 +1,94 @@
+header {
+      top: 0;
+      position: fixed;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+p.header {
+      text-align: center;
+      width: 24ch;
+      font-size: 2em;
+      margin: 0;
+      text-wrap: nowrap;
+      overflow: hidden;
+      animation: typing 4s steps(20) 2s infinite alternate-reverse;
+}
+
+@keyframes typing {
+      from {
+            width: 0%;
+      }
+}
+
+.col-md-4 {
+      border-radius: 50px;
+}
+
+hr {
+      border: 2px solid black;
+}
+
+.input-field {
+      margin-top: 150px;
+}
+
+.gap {
+      margin-top: 150px;
+}
+
+.hello_world {
+      text-align: left;
+      padding-left: 20px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+}
+
+.input-field input {
+      border-radius: 10px;
+      padding: 8px;
+}
+
+.task {
+      margin: 20px 0;
+      font-weight: 550;
+      letter-spacing: 1px;
+      word-spacing: 2px;
+      touch-action: none;
+      user-select: none;  
+      background-color: rgba(164, 164, 164, 0.532);
+      color: white;
+}
+
+.input-field button {
+      border-radius: 20px;
+      transition: 0.3s;
+}
+
+.input-field button:hover {
+      background-color: #089e2b;
+}
+
+@media screen and (min-width: 768px) {
+      .container section {
+            margin-top: 100px;
+      }      
+}
+
+@media screen and (max-width: 768px) {
+      h1 {
+            font-size: 1.3em;
+      }
+
+      .row {
+            flex-direction: column;
+            align-items: center;
+      }
+
+      .col-md-4 {
+            width: 100%;
+            margin-top: 50px;
+      }
+}
